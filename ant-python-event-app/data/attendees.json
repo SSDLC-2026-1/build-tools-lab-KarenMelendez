@@ -3,7 +3,8 @@
     "name": "Laura",
     "email": "laura@example.com",
     "age": 22,
-    "ticket_type": "vip"
+    "ticket_type": "vip",
+    "registration_code": "EV-1234"
   },
   {
     "name": "Pedro",
