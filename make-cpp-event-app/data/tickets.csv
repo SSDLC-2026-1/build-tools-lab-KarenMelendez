@@ -1,0 +1,7 @@
+code,type,status
+TK001,vip,active
+TK002,general,used
+TK003,student,active
+TK004,premium,active
+TK005,,cancelled
+TK006,general,active
