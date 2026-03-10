@@ -1,0 +1,7 @@
+[INVALID] Laura: ['Invalid registration code']
+[INVALID] Pedro: ['Invalid email', 'Invalid registration code']
+[INVALID] Sofia: ['Attendee must be 18 or older', 'Invalid registration code']
+
+Summary
+Valid attendees: 0
+Invalid attendees: 3
