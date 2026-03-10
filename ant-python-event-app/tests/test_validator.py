@@ -8,7 +8,8 @@ class TestValidator(unittest.TestCase):
             "name": "Sara Palacios",
             "email": "sara@example.com",
             "age": 25,
-            "ticket_type": "vip"
+            "ticket_type": "vip",
+            "registration_code": "EV-1234"
         }
         self.assertEqual(validate_attendee(attendee), [])
 
@@ -17,7 +18,8 @@ class TestValidator(unittest.TestCase):
             "name": "Juan",
             "email": "juanexample.com",
             "age": 20,
-            "ticket_type": "general"
+            "ticket_type": "general",
+            "registration_code": "EV-12"
         }
         self.assertIn("Invalid email", validate_attendee(attendee))
 
